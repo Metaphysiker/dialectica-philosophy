@@ -83,4 +83,4 @@ test:
 production:
   <<: *default
   database: dialectica_philosophy_production
-  password: <%= ENV['DIALECTICA_DATABASE_PASSWORD'] %>
+  #password: <%= ENV['DIALECTICA_DATABASE_PASSWORD'] %>
